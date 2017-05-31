@@ -5,6 +5,7 @@
  * @param array $rates Array of rates found for the package.
  * @return array
  * place the code below in function.php file 
+ I used XStore theme for this app, it is under theme fuctions. 
  */
 function my_hide_shipping_when_free_is_available( $rates ) {
 	$free = array();
